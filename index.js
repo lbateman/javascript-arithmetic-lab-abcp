@@ -19,8 +19,9 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  var incremented = n++
-  return incremented
+  var toIncrement = n
+  toIncrement++
+  return toIncrement
 }
 
 function dec(n) {
