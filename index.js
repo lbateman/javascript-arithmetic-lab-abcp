@@ -19,16 +19,21 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  var incremented = n + 1
-  return incremented
+  var incremented = n
+  return incremented++
 }
 
 function dec(n) {
-  var decremented = n - 1 
-  return decremented
+  var decremented = n 
+  return decremented--
 }
 
 function makeInt(n) {
   var integer = n
   return parseInt(integer,10)
+}
+
+function preserveDecimal(n) {
+  var floating = n 
+ 
 }
