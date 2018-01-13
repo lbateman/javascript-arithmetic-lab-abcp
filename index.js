@@ -19,12 +19,14 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  var incremented = n + 1
+  var incremented = n
+  incremented++
   return incremented
 }
 
 function dec(n) {
-  var decremented = n - 1
+  var decremented = n
+  decremented--
   return decremented
 }
 
