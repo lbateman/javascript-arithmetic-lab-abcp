@@ -20,14 +20,14 @@ function divide(a, b) {
 
 function inc(n) {
   var toIncrement = n
-  var incremented = toIncrement++
-  return incremented
+  toIncrement++
+  return toIncrement
 }
 
 function dec(n) {
   var toDecrement = n
-  var decremented =+ toDecrement
-  return decremented
+  toDecrement--
+  return toDecrement
 }
 
 function makeInt(n) {
