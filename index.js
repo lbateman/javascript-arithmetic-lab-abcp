@@ -20,7 +20,7 @@ function divide(a, b) {
 
 function inc(n) {
   var toIncrement = n
-  var incremented =+ toIncrement
+  var incremented = toIncrement++
   return incremented
 }
 
